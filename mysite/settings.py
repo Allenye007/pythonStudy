@@ -25,8 +25,8 @@ SECRET_KEY = '6h6co=7%=*k-9r*pf70*m_125nw&7c7gueovrur^7-=hq7jsn-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
+DATA_UPLOAD_MAX_MEMORY_SIZE = 102428800
 
 # Application definition
 
@@ -74,15 +74,25 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+# 使用数据库config
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'demo',#选择数据库的名,请确认你的mysql中有这个库
+#         'USER': 'root',
+#         'PASSWORD': '123456yxl',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#
+#     }
+# }
+
+# 使用文件操作config
+# NAME - 数据库的名称。如果使用的是 SQLite，数据库将是你电脑上的一个文件，在这种情况下， NAME 应该是此文件的绝对路径，包括文件名。默认值 os.path.join(BASE_DIR, 'db.sqlite3') 将会把数据库文件储存在项目的根目录。
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demo',#选择数据库的名,请确认你的mysql中有这个库
-        'USER': 'root',
-        'PASSWORD': '123456yxl',
-        'HOST': 'localhost',
-        'PORT': '3306',
-
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
