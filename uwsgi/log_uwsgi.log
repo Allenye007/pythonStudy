@@ -1,0 +1,44 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 16 19:42:21 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/pythonStudy
+writing pidfile to /home/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Jan 16 19:43:06 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/pythonStudy
+writing pidfile to /home/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 3
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
