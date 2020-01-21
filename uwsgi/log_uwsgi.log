@@ -886,3 +886,203 @@ lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
 probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
 bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 10:42:33 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 10:46:24 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 10:47:02 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 10:48:11 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 10:50:37 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 15:35:16 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 15:42:10 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 15:59:12 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 16:01:13 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Jan 20 18:32:17 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+bind(): Cannot assign requested address [core/socket.c line 769]
