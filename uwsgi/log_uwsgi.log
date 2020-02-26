@@ -1627,3 +1627,24 @@ invalid request block size: 16709 (max 4096)...skip
 invalid request block size: 16709 (max 4096)...skip
 invalid request block size: 16709 (max 4096)...skip
 [pid: 611|app: 0|req: 11/115] 101.254.115.210 () {40 vars in 754 bytes} [Thu Feb  6 02:30:58 2020] GET /allen/demo/read_csv => generated 250 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 101 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Feb  6 10:57:47 2020] ***
+compiled with version: 5.4.0 20160609 on 15 January 2020 06:11:12
+os: Linux-4.4.0-159-generic #187-Ubuntu SMP Thu Aug 1 16:28:06 UTC 2019
+nodename: allen
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/AllenServer/pythonStudy
+writing pidfile to /home/AllenServer/pythonStudy/uwsgi/pid_uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/AllenServer/pythonStudy
+your processes number limit is 3801
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8010).
+bind(): Address already in use [core/socket.c line 769]
